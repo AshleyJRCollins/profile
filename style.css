@@ -1,0 +1,91 @@
+@import url('<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@900&display=swap" rel="stylesheet">');
+
+    body {
+      color: #8d99ae;
+      background-color: #A8DCD1;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 18px;
+      line-height: 1.5;
+    }
+    h1, h2, h3 {
+      color: #fca311;
+      font-family: 'Roboto', sans-serif;
+      font-size: 30px;
+      font-weight: bold;
+      line-height: 1.0;
+    }
+    button {
+      color: white;
+      background-color: #A8DCD1;
+      font-family: 'Roboto', sans-serif;
+      font-size: 15px;
+      font-weight: bold;
+      border: 1px solid #fca311;
+      border-radius: 5px;
+      padding: 5px;
+      box-shadow: 0 5px 5px rgba(0,0,0,.5);
+    }
+
+    button:hover {
+      opacity: 0.5;
+    }
+
+    a {
+      color: #e5e5e5;
+      text-decoration: none;
+    }
+    a:hover {
+      opacity: 0.5;
+    }
+
+    .circle {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+    }
+
+    .text-center {
+      text-align: center;
+      width: 500px;
+      margin: 0 auto;
+    }
+
+    .card-white {
+      background: white;
+      border: 1px solid lightgrey;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.5);
+      margin: 20 auto;
+      padding: 20px;
+    }
+
+    #list > li > a {
+      display: inline-block;
+      padding: 0px 20px;
+      color: #fca311;
+    }
+
+    #list {
+      list-style: none;
+      padding-left: 0px;
+    }
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+    .text-center {
+      width: 700px;
+    }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+    .text-center {
+      width: 500px;
+    }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+    .text-center {
+      width: 300px;
+    }
+}
+
